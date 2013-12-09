@@ -22,10 +22,6 @@ html, body {
   height : 100%;
   margin-left : 1%;
   -webkit-transform : skewX(-10deg);
-
-  h3 {
-    opacity : 1;
-  }
 }
 
 
@@ -52,7 +48,7 @@ html, body {
 
 #webuild {
   background-color: black;
-  width : 80%;
+  width : 84%;
 }
 
 #purpose {
@@ -75,13 +71,24 @@ html, body {
 
   -------------------------------------------------------------*/
 
-  #mobile {
+#mobile {
   /*background : rgba(255, 255, 255, 0.5);*/
   background-color: #E6005C;
-  width : 8.5%;
+  width : 4.5%;
   position: relative;
   vertical-align: text-top;
   text-align: center;
+}
+
+.text2 {
+  color: white;
+  -webkit-transform : skewX(10deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  transform: rotate(-90deg);
 }
 
 

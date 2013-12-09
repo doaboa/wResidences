@@ -37,14 +37,14 @@ $(document).ready(function($) {
     $('#mobile').hover(
     	function () {
     		$('.text2').animate({opacity:'0'}, {bottom:"+=25"});
-            $("#mobile").css("width", "88.5%");
+            $("#mobile").css("width", "85.5%");
             $("#webuild").hide();
             $("#purpose").hide();
 
     	},
     	function () {
     		$('.text2').animate({opacity:'1'}, {bottom:"-=25"});
-            $("#mobile").css("width", "8.5%");
+            $("#mobile").css("width", "3.5%");
             $("#webuild").show();
             $("#purpose").show();
     	}
