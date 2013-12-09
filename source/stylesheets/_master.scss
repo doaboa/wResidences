@@ -1,0 +1,111 @@
+/*!-------------------------------------------------------------
+
+    THROUGHOUT SITE
+
+  -------------------------------------------------------------*/
+
+html, body {
+    height : 100%;
+    margin : 0px;
+    padding : 0px;
+    background-color: black;
+}
+
+.row.full-width {
+  width : 100%;
+  max-width : 100%;
+}
+
+.slant {
+  background-size : cover;
+  display : inline-block;
+  height : 100%;
+  margin-left : 1%;
+  -webkit-transform : skewX(-10deg);
+
+  h3 {
+    opacity : 1;
+  }
+}
+
+
+/*!-------------------------------------------------------------
+
+    W RESIDENCES BAR ON LEFT
+
+  -------------------------------------------------------------*/
+
+#web {
+  /*background : rgba(255, 255, 255, 0.5);*/
+  background-color: #E6005C;
+  /*opacity : 0.5;*/
+  width : 8.5%;
+  text-align: center;
+}
+
+
+/*!-------------------------------------------------------------
+
+    CENTER CONTENT
+
+  -------------------------------------------------------------*/
+
+#webuild {
+  background-color: black;
+  width : 80%;
+}
+
+#purpose {
+  left : 0;
+  position : absolute;
+  text-align : center;
+  top : 216px;
+  width : 100%;
+  z-index : 9999;
+
+  h1 {
+    text-align : center;
+  }
+}
+
+
+/*!-------------------------------------------------------------
+
+    LEASE NOW ON RIGHT
+
+  -------------------------------------------------------------*/
+
+  #mobile {
+  /*background : rgba(255, 255, 255, 0.5);*/
+  background-color: #E6005C;
+  width : 8.5%;
+  position: relative;
+  vertical-align: text-top;
+  text-align: center;
+}
+
+
+/*!-------------------------------------------------------------
+
+    TYPOGRAPHY & ICONOGRAPHY
+
+  -------------------------------------------------------------*/
+
+h1 {
+  font-size : 72px;
+}
+h2 {
+  font-size : 54px;
+}
+h3 {
+  font-size : 36px;
+}
+h4 {
+  font-size : 27px;
+}
+h5 {
+  font-size : 18px;
+}
+h6 {
+  font-size : 12px;
+}
