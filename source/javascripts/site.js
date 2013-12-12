@@ -22,25 +22,25 @@ $(document).ready(function($) {
     $("#slide1").show();
     $("#arrow").click(function() {
         $("#slide1").hide();
-        $("#slide2").show(2000);
+        $("#slide2").show();
         $("#arrow").click(function() {
             $("#slide2").hide();
-            $("#slide3").show(2000);
+            $("#slide3").show();
             $("#arrow").click(function() {
                 $("#slide3").hide();
-                $("#slide4").show(2000);
+                $("#slide4").show();
                 $("#arrow").click(function() {
                     $("#slide4").hide();
-                    $("#slide5").show(2000);
+                    $("#slide5").show();
                     $("#arrow").click(function() {
                         $("#slide5").hide();
-                        $("#slide6").show(2000);
+                        $("#slide6").show();
                         $("#arrow").click(function() {
                             $("#slide6").hide();
-                            $("#slide7").show(2000);
+                            $("#slide7").show();
                             $("#arrow").click(function() {
                                 $("#slide7").hide();
-                                $("#slide8").show(2000);
+                                $("#slide8").show();
                                 $("#arrow").click(function() {
                                     $("#slide8").hide();
                                     $('.text2').animate({opacity:'0'});
