@@ -76,11 +76,16 @@ html, body {
     left: 25%;
     h1 {
       color: white;
-      text-shadow: 2px 2px #E6005C, -1px 1px 0 #E6005C, -1px -1px #E6005C;
+      text-shadow: 2px 2px #E6005C, -1px 1px 0 black, -1px -1px black;
     }
   }
 }
 
+#slide2, #slide4, #slide8 {
+  #text {
+    top: 20%;
+  }
+}
 
 /*!-------------------------------------------------------------
 
